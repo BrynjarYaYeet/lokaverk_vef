@@ -1,0 +1,49 @@
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+	flex-direction: column;
+	
+}
+.val{
+	border-radius: 10px 10px;
+	background-image: linear-gradient(to right, blue , pink);
+	display: flex;
+	flex-direction: column;
+	height: 10em;
+	width: 20em;
+	justify-content: space-around;
+	margin-left: 25em;
+	margin-top: 20px;
+
+}
+header{
+	display: flex;
+	border-radius: 10px 10px;
+	height: 10em;
+	justify-content: space-around;
+	background-image: linear-gradient(to right, blue , pink);
+
+}
+p{
+	margin-top: 4em;
+	text-align: center;
+	font-family: 'monospace',Lucida Console, sans-serif;
+	font-size: 1.5em;
+	color: white;
+
+}
+a{
+	color: lightgreen;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.2em;
+}
+a:hover{
+	color:yellow;
+    text-decoration: underline;
+
+}
+
+

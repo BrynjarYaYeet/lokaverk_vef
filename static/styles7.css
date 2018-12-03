@@ -1,0 +1,55 @@
+body {
+	margin: 0 auto;
+	max-width: 70em;
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+header{
+	border-radius: 10px 10px;
+	background-image: linear-gradient(to right,  blue , pink);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 6em;
+
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+	text-align: center;
+}
+a:hover{
+	color:yellow;
+    text-decoration: underline;
+
+}
+
+.nedri{
+	color: white;
+	border-radius: 10px 10px;
+	background-image: linear-gradient(to right,  blue , pink);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 6em;
+	margin-bottom: 6em;
+}
+img{
+	height: 20em;
+	width: 20em;
+
+}
+input{
+display: flex;
+justify-content: center;
+max-width: 35%;
+max-height: 15%;
+}
