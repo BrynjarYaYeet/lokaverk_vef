@@ -6,7 +6,7 @@
 </head>
 <body background="/static/ganka.jpg">
 	<div class="efri">
-		<h3>Nýskráningaform</h3>
+		<h3>Búa Til Nedri</h3>
 		<form method="post" action="/nyrnotandi" accept-charset="ISO-8859-1">
 			Notendanafn: <br>
 			<input type="text" name="user" required><br>
@@ -18,7 +18,7 @@
 	</div>
 
 	<div class="nedri">
-		<h3>Innskráningarform</h3>
+		<h3>Innskráning</h3>
 		<form method="post" action="/innskra" accept-charset="ISO-8859-1">
 			Notendanafn: <br>
 			<input type="text" name="user" required><br>
@@ -29,6 +29,7 @@
 		</form>
 		<a href="/">Tilbaka</a>
 	</div>
+
 
 </body>
 </html>

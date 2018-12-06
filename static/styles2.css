@@ -18,6 +18,18 @@ body {
 	margin-top: 20px;
 
 }
+.mid{
+	border-radius: 10px 10px;
+	background-image: linear-gradient(to right, blue, pink);
+	display: flex;
+	flex-direction: column;
+	height: 15em;
+	width: 30em;
+	justify-content: space-around;
+	margin-left: 25em;
+	margin-top: 20px;
+
+}
 
 .nedri{
 	border-radius: 10px 10px;

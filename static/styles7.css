@@ -33,23 +33,53 @@ a:hover{
 }
 
 .nedri{
+	height: 15em;
+	width: 70em;
 	color: white;
 	border-radius: 10px 10px;
 	background-image: linear-gradient(to right,  blue , pink);
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
+	justify-content: center;
 	margin-top: 6em;
 	margin-bottom: 6em;
+
 }
 img{
-	height: 20em;
-	width: 20em;
+	height: 10em;
+	width: 10em;
+	border-radius: 10px 10px;
+	margin-left: 30em;
 
 }
 input{
-display: flex;
-justify-content: center;
-max-width: 35%;
-max-height: 15%;
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	max-height: 100%;
+	margin-left:10px;
+	color: blue;
+	text-decoration: none;
+	text-align: center;
+}
+.fjoldi{
+	margin-left: 30em;
+}
+.input{
+	display: flex;
+	justify-content: center;
+	max-width: 35%;
+	max-height: 15%;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 22em;
+	margin-top: 10px;
+}
+
+input:hover{
+	background-color: darkgray;
+	color:yellow;
+    text-decoration: underline;
+
 }

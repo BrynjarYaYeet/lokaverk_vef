@@ -71,16 +71,42 @@ def verslunn():
     c.close()
     budinn=template("verslun.tpl", rows=result)
     return budinn
+
 @route("/kaupa")
 def versla():
     return template("kaupa.tpl")
+
+@route("/keypt")
+def verslad():
+    return template("keypt.tpl")
+
+@route ("/admin")
+def adallgaejinn():
+    conn=pymysql.connect(host="tsuts.tskoli.is", port=3306, user="2110012590", passwd="mypassword")
+    c=conn.cursor()
+    c.execute("SELECT * from 2110012590_verslun.vara")
+    result=c.fetchall()
+    c.close()
+    return template('admin.tpl', rows=result)
+
+@route ("/breytasida")
+def breyta():
+    return template("breyta.tpl")
+
+@route ("/breyta")#, method="POST")
+def breyta():
+    conn = pymysql.connect(host='tsuts.tskoli.is', port=3306, user='2110012590', passwd='mypassword', db='2110012590_verslun')
+    cur = conn.cursor()
+
+
+
 
 @route("/static/<skra>")
 def static_skra(skra):
     return static_file(skra, root="./static/")
 
-try:
-    run(host="0.0.0.0", port=os.environ.get("PORT"))
-except:
-   run(debug=True)
-#run(host="localhost", port=8010)
+#try:
+#    run(host="0.0.0.0", port=os.environ.get("PORT"))
+#except:
+#   run(debug=True)
+run(host="localhost", port=8980)

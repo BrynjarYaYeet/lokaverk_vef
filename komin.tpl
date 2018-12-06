@@ -8,7 +8,7 @@
 <body background="static/et_ha.jpg">
 	<header>
 		<h1>Innskráning heppnaðist, velkomin/n {{u}} <a href="/skraning">Til Baka</a>
-		<br><a href="/verslun">Verslun!</a></h1>
+		<br><a href="/admin">Verslun!</a></h1>
 	</header>
 </body>
 </html>

@@ -11,7 +11,7 @@
 	</header>
 
 	<div class="val">
-		<a href="link">Verslun</a>
+		<a href="verslun">Verslun</a>
 		<a href="info">Upplýsingar</a>
 		<a href="skraning">Innskráning</a>
 	</div>
